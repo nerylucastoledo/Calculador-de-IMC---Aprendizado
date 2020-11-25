@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalizar.css">
+    <link rel="stylesheet" href="css//resetarTag.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Formulas</title>
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <div class="container">
+                <div>
+                    <h2 class="subtitulo">Você está acima do peso?</h2>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container">
+        <div class="imc">
+            <h2 class="titulo">Calculo do I.M.C</h2>
+            <p class="info">Indice de Massa Muscular</p>
+            <div class="sobre grid-12">
+                <p>Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal.</p>
+                <p>Muitas pessoas buscam descobrir seu IMC quando iniciam uma dieta específica ou uma atividade física. E estão certas, pois ele aponta a normalidade - peso adequado -, a magreza ou a obesidade em diferentes níveis.</p>
+            </div>
+            <div class="grid-6">
+                <form id="formulario">
+                    <h2 class="titulo-calculadora">Calculadora de I.M.C</h2>
+                    <div>
+                        <label for="altura">Altura (metro)</label>
+                        <input type="text" id="altura" placeholder="1,80">
+                    </div>
+                    <div>
+                        <label for="peso">Seu peso (kg)</label>
+                        <input type="number" id="peso" placeholder="80">
+                    </div>
+                    <div>
+                        <input type="text" id="resultadoImc" placeholder="Resultado">
+                    </div>
+                    <button class="botao" type="submit" value="submit" id="botaoPeso">Calcular</button>
+                </form>
+            </div>
+    
+            <div class="grid-6">
+                <ul class="resultadoImc">
+                    <li>Magreza</li>
+                    <li>Normal</li>
+                    <li>Sobrepeso</li>
+                    <li>Obesidade</li>
+                    <li>Obesidade Grave</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p>Todos os direitos reservados a Lucas Nery</p>
+        </div>
+    </footer>
+
+    <!-- 
+        <section class="container">
+        <div>
+            <h2 class="titulo">Calculo do M.M.C</h2>
+            <p class="info">Minimo Multiplo Comum</p>
+            <div class="sobre grid-6">
+                <p>O mínimo múltiplo comum (MMC) entre números inteiros é o menor número, também inteiro, que é múltiplo de todos esses números ao mesmo tempo.</p>
+                <p>Por exemplo, o MMC entre 2 e 12 é 12, pois os múltiplos de 2 são 2, 4, 6, 8, 10, 12… e os de 12 são: 12, 24, …</p>
+            </div>
+            <div class="grid-6">
+                <form id="formulario">
+                    <h2 class="titulo-calculadora">Calculadora de M.M.C</h2>
+                    <div>
+                        <label for="primeiroValor">Primeiro número</label>
+                        <input type="number" id="primeiroValor" placeholder="Valor 1">
+                    </div>
+                    <div>
+                        <label for="segundoValor">Segundo número</label>
+                        <input type="number" id="segundoValor" placeholder="Valor 2">
+                    </div>
+                    <div>
+                        <input type="text" id="resultado" placeholder="Resultado">
+                    </div>
+            
+                    <button class="botao" type="submit" value="submit" id="botao">Calcular</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
