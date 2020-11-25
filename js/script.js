@@ -1,4 +1,4 @@
-/*const mmc = () => {
+const mmc = () => {
     const primeiroValor = document.getElementById('primeiroValor')
     const segundoValor = document.getElementById('segundoValor')
     const resultado = document.getElementById('resultado')
@@ -25,7 +25,7 @@
         return (valorPassadoUm * ValorPassadoDois) / x
     }
 }
-mmc()*/
+mmc()
 
 const imc = () => {
     const primeiroValor = document.getElementById('altura')
