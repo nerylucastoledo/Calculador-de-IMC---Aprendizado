@@ -1,5 +1,4 @@
-# Calculadora-IMC
-Um código simples para calcular o IMC (Índice de Massa corporal) de qualquer pessoa.  Contendo interação em JS.
-
+# Calculadora-IMC-e-MMC
+Um código simples para calcular o IMC (Índice de Massa corporal) e MMC (Minimo multiplo comum)
 
 Confira: https://imclucas.netlify.app/
