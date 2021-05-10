@@ -1,4 +1,4 @@
-# Calculador-de-IMC---Aprendizado
+# Calculadora-IMC
 Um código simples para calcular o IMC (Índice de Massa corporal) de qualquer pessoa.  Contendo interação em JS.
 
 
